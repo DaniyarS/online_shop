@@ -2,6 +2,10 @@ from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
+from django.contrib.auth.models import User
+from rest_framework import viewsets
+from rest_framework import permissions
+from api.serializers import UserSerializer
 
 from api.models import Category, Product
 from api.serializers import CategorySerializer2, ProductSerializer
@@ -89,3 +93,14 @@ class ProductDetailsAPIView(APIView):
         product = self.get_object(product_id)
         product.delete()
         return Response({'deleted': True})
+
+
+
+
+class UserViewSet(viewsets.ModelViewSet):
+    """
+    API endpoint that allows users to be viewed or edited.
+    """
+    queryset = User.objects.all().order_by('-date_joined')
+    serializer_class = UserSerializer
+    permission_classes = [permissions.IsAuthenticated]
