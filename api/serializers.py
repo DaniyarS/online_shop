@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from api.models import Category, Product
+from api.models import Category, Product, Client
 
 
 class CategorySerializer1(serializers.Serializer):
@@ -9,6 +9,19 @@ class CategorySerializer1(serializers.Serializer):
 
     def create(self, validated_data):
         return Category.objects.create(**validated_data)
+
+    def update(self, instance, validated_data):
+        instance.name = validated_data.get('name', instance.name)
+        instance.save()
+        return instance
+
+
+class ClientSerializer(serializers.Serializer):
+    id = serializers.IntegerField(read_only=True)
+    name = serializers.CharField()
+
+    def create(self, validated_data):
+        return Client.objects.create(**validated_data)
 
     def update(self, instance, validated_data):
         instance.name = validated_data.get('name', instance.name)
@@ -29,3 +42,12 @@ class ProductSerializer(serializers.ModelSerializer):
     class Meta:
         model = Product
         fields = ('id', 'name', 'price', 'description', 'category', 'category_id',)
+
+
+class AdminSerializer(serializers.ModelSerializer):
+    client = CategorySerializer2(read_only=True)
+    client_id = serializers.IntegerField(write_only=True)
+
+    class Meta:
+        model = Product
+        fields = ('id', 'name', 'client', 'client_id',)
