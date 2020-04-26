@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4fc959-55fc-4df5-b58f-13c5ab75b230" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/migrations/0002_admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/views/views_Serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/views/views_cbv_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b947671c-a4f1-43f8-89b1-21a0a3040c8c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b947671c-a4f1-43f8-89b1-21a0a3040c8c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/online_shop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/online_shop/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,22 +111,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="158" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587655524271" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587880737606">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587915305018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587880737606" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587880737606">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587915305018" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587915305018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587880737606" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587880737605">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587915305018" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587915305018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587880737605" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587880737606">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587915305018" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587915305018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587880737606" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587915305018" />
     <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1587801061709">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

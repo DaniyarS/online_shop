@@ -57,7 +57,7 @@ class Client(models.Model):
 
 class Admin(models.Model):
     name = models.CharField(max_length=100)
-    client = models.ForeignKey(Client, on_delete=models.CASCADE, related_name='products')
+    client = models.ForeignKey(Client, on_delete=models.CASCADE, related_name='clients')
 
     def to_json(self):
         return {
